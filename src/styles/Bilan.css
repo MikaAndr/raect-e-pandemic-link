@@ -1,0 +1,54 @@
+
+.skills .skills-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .skills-details .text{
+    width: 25%;
+  }
+ .skills-details .boxes{
+   width: 45%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-left: 28.1%;
+ }
+ .skills-details .box{
+   width: calc(100% / 2 - 20px);
+   margin: 20px 0;
+ }
+ .skills-details .boxes .topic{
+   font-size: 22px;
+   color: white;
+ }
+ .skills-details .boxes .per{
+   font-size: 60px;
+   color: white;
+ }
+ .boxes .box {
+    margin: 20px 0;
+    width: calc(100% / 3 - 20px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 20px 5px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 12%);
+    cursor: default;
+    transition: all 0.4s ease;
+    background-image: url(../images/virus.jpg);
+    background-size: cover;
+    color:black
+}
+.skills-details .boxes .box:hover .topic,
+.skills-details .boxes .box:hover .per{
+  color: crimson;
+  transition: all 0.4s ease;
+}
+
+.miova{
+    text-align: center;
+    color: darkcyan;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+

@@ -1,0 +1,180 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+h1{
+  color: crimson;
+  padding-top: 80px;
+  font-size: 70px;
+  text-align: center;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+span{
+  color: crimson;
+}
+a{
+  text-decoration: none;
+}
+#hero{
+  background-image: url(./images/pandemic.jpg);
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+}
+/*nav deb*/
+nav{
+  position: fixed;
+  width: 100%;
+  padding: 20px 0 0 124px;
+  z-index: 998;
+  transition: all 0.3s ease;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav.sticky {
+  background: rgb(52, 150, 151);
+  padding: 4px 0 14px 64px;
+  opacity: .8;
+}
+.navbar{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.navbar .logo a{
+  font-weight: 500;
+  font-size: 35px;
+  color: white;
+}
+.navbar .logo {
+  max-width: 1200px;
+  margin: 0px;
+  padding: 2px;
+  justify-content: flex-start;
+}
+.navbar .menu{
+  display: flex;
+  position: relative;
+}
+.navbar .menu li{
+  list-style: none;
+  margin: 0 8px;
+}
+.navbar .menu a{
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
+  padding: 6px 0;
+  transition: all 1s ease;
+}
+.navbar .menu a:hover{
+  color: crimson;
+}
+.menu a{
+  color: #FFF;
+}
+.menu a:hover{
+  color: crimson;
+}
+
+/*nav fin*/
+
+.container{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s ease;
+}
+   /*DEB HERO*/
+
+   #hero::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+}
+#hero .hero{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: center;
+}
+#hero h1{
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color: white;
+    top: 10px;
+
+}
+#hero .name{
+    color: crimson;
+}
+.hero p {
+    font-size: 70px;
+    color: white;
+    
+}
+
+.Ready{
+    display: flex;
+    justify-content: center;
+
+}
+
+.cta{
+    display: inline-block;
+    padding: 18px 25px;
+    color: rgb(245, 245, 245);
+    background-color: transparent;
+    border: 3px solid rgb(248, 248, 248);
+    border-radius: 10%;
+    font-size:.7rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    margin-top: 20px;
+    transition: .6s ease ;
+    transition-property: background-color, color;
+}
+.cta:hover {
+    color: white;
+    background-color: rgb(23, 7, 114);
+}
+.cta2{
+    display: inline-block;
+    padding: 18px 25px;
+    color:crimson;
+    background-color: transparent;
+    border: 2px solid crimson;
+    border-radius: 10%;
+    font-size:.7rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    margin-top: 20px;
+    transition: .6s ease ;
+    transition-property: background-color, color;
+}
+.cta2:hover {
+    color: white;
+    background-color: crimson;
+}
+
+    /*FIN HERO*/

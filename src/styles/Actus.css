@@ -1,0 +1,77 @@
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 12px;
+}
+.row .box {
+    margin: 20px 0;
+    width: calc(100% / 3 - 20px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 20px 5px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 12%);
+    cursor: default;
+    transition: all 0.4s ease;
+    background-image: url(../images/pandemic.jpg);
+    background-size: cover;
+    color:#ffffff ;
+}
+.row :hover {
+    background-position: right bottom;
+    transition: all .5s ;
+    opacity: .8;
+}
+.Autre{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+.Autre p {
+    font-size: 15px;
+}
+.Autre .box {
+    padding-right: 44px;
+}
+
+.tt1{
+    display: flex;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 12%);
+    padding-bottom: 1px;
+}
+.tt2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 12%);
+}
+.tt2 img{
+    height: 230px;
+    width: 98%;
+
+}
+.tt2 p{
+    align-items: center;
+    padding-top: 12px;
+}
+p{
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+h3{
+    border: 2px solid rgb(146, 153, 145);
+border-left-color: white;
+border-top-color: white;
+border-right-color: white;
+}
+h4{
+    text-align: center;
+}
+img{
+    height: 230px;
+    width: 200px;
+    padding-top: 12px;
+}

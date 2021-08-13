@@ -1,0 +1,79 @@
+.titre {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.contain {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.tt2 img{
+    height: 350px;
+    width: 98%;
+}
+.tt2 p{
+    align-items: center;
+    padding-top: 10px;
+}
+h4{
+    color: crimson;
+}
+h3{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+}
+input{
+    border-radius: 0;
+font-size: 13px !important;
+    border: 2px solid crimson;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    
+}
+input .Nom{
+        font-family: fantasy;
+        color: crimson;
+        line-height: 1.2;
+        font-size: 22px;
+        display: block;
+        width: 50%;
+        background: transparent;
+        height: 90px;
+        padding: 0 20px 0 38px;
+}
+.Mère{
+    margin-left: 45%;
+}
+
+.group {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+.group input, .group textarea {
+    font-size: 14px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    height: 35px;
+    border: none;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+    border-bottom: 2px solid;
+    border-bottom-color: currentcolor;
+    border-color: #f1f1f1;
+}
